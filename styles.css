@@ -1,0 +1,77 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    
+    font-family: Tahoma;
+    font-size: 1.6rem;
+    height: 100vh;
+    margin:0;
+    background-color: rgb(24, 14, 1);
+    color: #ffffff;
+}
+
+h1, p {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+form {
+    width: 60vw;
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 500px;
+    background-color: blue;
+    padding: 2rem 3rem;
+    border-radius: 5px;
+    margin-top: 4rem;
+    
+}
+ 
+label{
+    display: block;
+    margin: 1rem auto;
+
+}  
+
+input, textarea, select{
+    width: 100%;
+    display: inline-block;
+    min-height: 2rem;
+    border-radius: 0.4rem;
+    margin: 0.6rem 0;
+    font-size:1.4rem; 
+    padding: 1.2rem 0 1.2rem 0;
+
+}
+
+input, textarea {
+    color: black;   
+}
+
+input[type=submit] {
+    width: 100%;
+    margin: 0.8rem 0;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 2rem;
+    display: block;
+    cursor: pointer; 
+    border: none;
+    min-width: 30rem;
+}
+
+.inline {
+    width: unset;
+    vertical-align: middle;  
+}
+
+input[type="checkbox"] {
+    width: unset;
+    vertical-align: middle;
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
+}
